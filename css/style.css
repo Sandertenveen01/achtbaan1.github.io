@@ -1,0 +1,82 @@
+header{
+    background-color: blue;
+}
+
+footer{
+    background-color: red;
+}
+
+#text1{
+    background-color: brown;
+}
+#text1 span{
+    background-color: aqua;
+}
+#text2{
+    background-color: aqua;
+}
+#text2 span{
+    background-color: black;
+    color: aliceblue;
+}
+#text3{
+    background-color: antiquewhite;
+}
+#text3 span{
+    background-color: blue;
+}
+#text4{
+    background-color: aquamarine;
+}
+#text4 span{
+    background-color: brown;
+}
+#img5{
+    background-color: azure;
+}
+#img6{
+    background-color: rgb(60, 60, 34);
+    ;
+}
+#img7{
+    background-color: rgb(37, 23, 6);
+}
+#img8{
+    background-color: black;
+}
+#text9{
+    background-color: blanchedalmond;
+}
+#text9 span{
+    background-color: chartreuse;
+}
+#text10{
+    background-color:rgb(22, 56, 53)
+}
+#text10 span{
+    background-color: cornflowerblue;
+}
+#text11{
+    background-color: blueviolet;
+}
+#text11 span{
+    background-color: darkgoldenrod;
+}
+#text12{
+    background-color:brown
+}
+#text12 span{
+    background-color: fuchsia;
+}
+#img13{
+    background-color:burlywood
+}
+#img14{
+    background-color:cadetblue
+}
+#img15{
+    background-color:chartreuse
+}
+#img16{
+    background-color:crimson
+}
