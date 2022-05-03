@@ -1,0 +1,133 @@
+body{
+    background: #f2f2f2;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.4em; 
+    padding: 1.2em;
+
+}
+
+.logo span {
+    color:#f2f2f2
+}
+
+.navbar .container {
+    background: blue;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1px auto;
+}
+
+.navbar nav {
+    display: flex;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+
+}
+
+.navbar nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar nav ul a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+
+.navbar nav li :hover {
+    color: black;
+    background-color: cornflowerblue;
+}
+
+.container {
+    display: flex;
+    place-content: space-between;
+}
+
+
+/* Mijn CV pagina */
+
+#mijncv {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 5px;
+    margin: 5em 0 5em 0;
+  }
+  
+#mijncv td, #mijncv th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+#mijncv tr:nth-child(even){background-color: #f2f2f2;}
+  
+#mijncv tr:hover {background-color: #ddd;}
+  
+#mijncv th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: cornflowerblue;
+    color: white;
+  }
+
+  /* contact pagina */
+
+input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  
+  input[type=submit]:hover {
+    background-color: blue;
+  }
+  
+
+footer {
+    background: blue;
+}
+
+.copyright {
+    color: #f2f2f2;
+    padding: 5px;
+}
