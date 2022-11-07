@@ -1,0 +1,42 @@
+body {
+  background-color: blanchedalmond;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+  text-decoration: solid;
+  font-size: larger;
+  font-family: fantasy;
+}
+
+img {
+  margin: 5px;
+  float: left;
+  width: 280px;
+  border: 5px solid #777;
+  height: 180px;
+}
+
+.container-sm {
+  margin-top: 2em;
+}
+
+p {
+  padding: 5em;
+  background-color: darkgrey;
+  border: 5px solid #777;
+  border-radius: 15em;
+}
+
+.form-floating {
+  padding: 0.1em;
+}
+
+.btn {
+  border-radius: 50px;
+  margin-top: 1em;
+}
+
+footer {
+  background-color: rgb(185, 162, 128);
+}
